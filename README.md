@@ -2,12 +2,15 @@
 \[Enter your responses to Week 1, tasks 2 and 3 here\]
 
 ## Task 1 - Dataset Theme
-I have chosen to base my dataset around some of the works of Japanese composer Joe Hisaishi. For the current task I have chosen to use a piano rendition of "Merry-go-round of Life" from Howl's Moving Castle.
-- Score: https://musescore.com/user/16006641/scores/4197961
-- Recording: https://www.youtube.com/watch?v=4F-15HhwBYY
-- Metadata:
+I have chosen to base my dataset around some of the works of the classical and romantic composer Ludwig van Beethoven. 
+For the current task I have chosen to use his piano sonata No.8 in C minor, Op.13, also known as the "pathetique sonata". Specifically, the second movement"Adagio Cantabile".
+
+I chose to focus on this because it's one of my favourite sonatas of all time, especially the beautiful but haunting second movement. 
+It's also one of the first pieces I taught myself after finishing my classical piano training, so it holds a special place in my heart.
+
 
 ## Task 2 - Challenges when Working with Music Data
-Copyright is definitely one of the biggest challenges when finding and using music data. In my example, the score I am using is from MuseScore which requires a subscription to download and print sheetmusic. This will be a common theme with all of Hisashi's work as it is licensed for use within movies. In a related way the recording I'm using is from YouTube which doesn't allow you to export videos or mp3s from their site, even with a subscription. Thankfully there are external platforms which allow this but the legality of these is questionable. 
+From my experience I think the challenges you face when working with music data heavily depend on the music you are working with. 
+For my theme, finding data is not difficult at all due to the prevelance and age of the piece, for a newer or more niche piece of music I could imagine this being very difficult by contrast.
 
-Additionally this score and recording are not from the original source, they are transcriptions, which means they might not be entirely accurate to Joe Hisaishi's interpretation of the music. Being piano transcriptions of an orchestra some interpretation in that sense is required as well.
+Also luckily in my case, some of the data is old enough that it falls under public domain, like the score I'm using. My audio however is under the "CC BY-NC" license meaning must credit the owner whenever I use it and can't use it for commercial purposes.
