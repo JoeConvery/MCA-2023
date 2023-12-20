@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Week 10</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <link rel="stylesheet" href="style.css">
+	    <script src="script.js"></script>
+    </head>
+    <body>
+
+        <!--Top Navigation Bar-->
+        <div class="menu" id="mymenu">
+            <a href="index.html">Home</a>
+            <a href="week_1.html">Week 1</a>
+            <a href="week_2.html">Week 2</a>
+            <a href="week_3.html">Week 3 </a>
+            <a href="week_4.html">Week 4 </a>
+            <a href="week_5.html">Week 5 </a>
+            <a href="week_7.html">Week 7 </a>
+            <a href="week_8.html">Week 8 </a>
+            <a href="week_9.html">Week 9 </a>
+            <a href="week_10.html" class="active">Week 10 </a>
+            <a href="javascript:void(0);" class="icon" onclick="mymenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <h1 class="header">Week 10 - Audio Similarity and Transcription</h1>
+
+        <div class="content" id="week10">
+
+            <!--Task 1-->
+            <section id="task1">
+                <h2>Task 1 - Similarity</h2>
+                <p>For this task I have once again used the same audio files from the prior two weeks.
+                   Tracks 0-3 are classical, 4-6 are rock and 7-9 are my Beethoven tracks.</p>
+                <img src="images/occurence.png" alt="occurence graph" width="500px"><img src="images/similarity_matrix.png" alt="similarity matrix" width="575px">
+
+
+            </section>
+
+            <!--Task 2-->
+            <section id="task2">
+                <h2>Task 2 - Trascription</h2>
+                <h3>Original WAV File</h3>
+                <audio controls><source src="audio/fixed_score.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+                <br>
+                <img src="images/fixed_score_page_1.png" alt="fixed score" width="750px">
+
+                <h3>Converted Midi File</h3>
+                <audio controls><source src="audio/fixed_score_polyphonic_transcription.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+                <br>
+                <img src="images/polyphonic_transcription_page_1.png" alt="polyphonic transcription" width="750px">
+
+                <h3>Reflections</h3>
+                <p>The transcription process lost a very large amount of info, especially the rhythm which is surpising given how steady the first section of the sonata is.</p>
+                <p>Surprisingly it does manage to get most of the main chords in bar 5-6 but overall almost everything is lost in this transcription.</p>
+                <br>
+            </section>
+        </div>
+        
+    </body>
+</html>

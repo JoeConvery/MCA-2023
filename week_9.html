@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Week 9</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <link rel="stylesheet" href="style.css">
+	    <script src="script.js"></script>
+    </head>
+    <body>
+
+        <!--Top Navigation Bar-->
+        <div class="menu" id="mymenu">
+            <a href="index.html">Home</a>
+            <a href="week_1.html">Week 1</a>
+            <a href="week_2.html">Week 2</a>
+            <a href="week_3.html">Week 3 </a>
+            <a href="week_4.html">Week 4 </a>
+            <a href="week_5.html">Week 5 </a>
+            <a href="week_7.html">Week 7 </a>
+            <a href="week_8.html">Week 8 </a>
+            <a href="week_9.html" class="active">Week 9 </a>
+            <a href="week_10.html">Week 10 </a>
+            <a href="javascript:void(0);" class="icon" onclick="mymenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <h1 class="header">Week 9 - Analysing Acoustic Data</h1>
+
+        <div class="content" id="week9">
+            <!--Task 1-->
+            <section id="task1">
+                <h2>Task 1 - Extract Features</h2>
+                <p>For this task I will be using the same 3 audio files as last week for simplicity and consistency.</p>
+                <h3>Fur Elise</h3>
+                <audio controls><source src="audio/fur_elise.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>
+                <img src="images/fur_elise_week9.png" alt="Graphs for Fur Elise" width="100%">
+                <h3>Fantasia</h3>
+                <audio controls><source src="audio/fantasia.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>
+                <img src="images/fantasia_week9.png" alt="Graphs for Fantasia" width="100%">
+                <h3>5th Symphony</h3>
+                <audio controls><source src="audio/5th_symphony.ogg" type="audio/ogg">Your browser does not support the audio element.</audio>
+                <img src="images/5th_symphony_week9.png" alt="Graphs for 5th Symphony" width="100%">
+            </section>
+
+
+            <!--Task 2-->
+            <section id="task2">
+                <h2>Task 2 - Computer and Visualize Features with Histograms</h2>
+                <h3>Histograms</h3>
+                <img src="images/fur_elise_histograms.png" alt="Fur Elise Histograms" width="33%"><img src="images/fantasia_histograms.png" alt="Fantasia Histograms" width="33%"><img src="images/5th_symphony_histograms.png" alt="5th Symphony Histograms" width="33%">
+                <p>From these histograms we can see a very clear difference between the first set, Fur Elise, and the other two. This will be because
+                   Fur Elise is not only a piano piece, but a piano piece that sticks to a consistent mid-low range. This means that compared to the two
+                   orchestra pieces, the timbre of the sound is much more consistent and tightly grouped which is reflected in my Mel Frequency Cepstral Coefficient
+                   histograms. 
+                </p>
+                <br>
+            </section>
+        </div>
+        
+    </body>
+</html>
